@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(void)
+{
+	int number;
+
+	do {
+		printf("Please enter a positive number:");
+		scanf("%d", &number);
+
+	} while (number <= 0);
+	printf("You enterd : %d\n", number);
+
+	return 0;
+}
